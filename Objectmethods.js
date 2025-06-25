@@ -33,8 +33,8 @@ var stobj = [
     }
 ]
 console.log(stobj);
-console.log(stobj[1].name);
-console.log(stobj[1]);
+console.log(stobj[0].name);
+console.log(stobj[2]);
 console.log("  ");
 
 // to get keys and values.

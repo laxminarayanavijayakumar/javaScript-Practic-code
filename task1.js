@@ -1,38 +1,48 @@
-var arr = (x) => {console.log(x*2)}
-arr(2)
+// Task 1:-
+// var arr = (x) => {console.log(x*2)}
+// arr(2)
 
-console.log("x ------------------------------ x");
+// console.log('    ');
+// console.log("x ------------------------------ x");
 
-var num = 2
-num+=5
-num-=5
-num*=5
-num**=5
-console.log(num)
+// Task 2:-
+// var num = 2
+// num+=5
+// num-=5
+// num*=5
+// num**=5
+// console.log(num)
 
-console.log("x ------------------------------ x");
+// console.log('    ');
+// console.log("x ------------------------------ x");
 
-var hight= 500
-var limit = (hight>=155 && hight<=188)?"he is eligible to ride":"he is not eligible to ride"
-console.log(limit);
+// Task 3:-
+// var hight= 500
+// var limit = (hight>=155 && hight<=188)?"he is eligible to ride":"he is not eligible to ride"
+// console.log(limit);
 
-console.log("x ------------------------------ x");
+// console.log('    ');
+// console.log("x ------------------------------ x");
 
-let str = "java"
-let rev = " "
-for(i = str.length-1; i >= 0; i--){
-    rev += str[i]
-}
-console.log('reverse print = '+rev)
+// Task 4:-
+// let str = "java"
+// let rev = " "
+// for(i = str.length-1; i >= 0; i--){
+//     rev += str[i]
+// }
+// console.log('reverse print = '+rev)
 
-let hor = " "
-for(i = 0; i<str.length; i++){
-    hor += str[i]
-}
-console.log('horizondal print = '+hor);
+// let hor = " "
+// for(i = 0; i<str.length; i++){
+//     hor += str[i]
+    
+// }
+// console.log('horizondal print = '+hor);
 
-console.log("x ------------------------------ x");
+// console.log('    ');
+// console.log("x ------------------------------ x");
 
+// Task 5:-
 var num = 10
 var sum = 0
 for(var i =0; i<=num; i++){
@@ -41,24 +51,30 @@ for(var i =0; i<=num; i++){
 }
 console.log("total : "+sum)
 
+console.log('    ');
 console.log("x ------------------------------ x");
 
+// Task 6:-
 var count = 5
 while(count>=0){
     console.log(count)
     count--
 }
 
+console.log('    ');
 console.log("x ------------------------------ x");
 
+// Task 7:-
 var docount = 5
 do {
     console.log(docount)
     docount--
 } while (docount>=0);
 
+console.log('    ');
 console.log("x ------------------------------ x");
 
+// Task 8:-
 var num1 = 0
 var sum1 = 0
 do{
@@ -70,8 +86,11 @@ do{
 }
 while(num1<=10)
     console.log("Total : "+sum1)
-console.log("  ")
 
+console.log("  ")
+console.log('x ------------------------------ x');
+
+// Task 9:-
 var number = 0
 var store = 0
 while(number<=10){
@@ -80,11 +99,19 @@ while(number<=10){
     number++
 }console.log("Total : "+store)
 
+console.log('    ');
+console.log("x ------------------------------ x");
+
+// Task 10:-
 let str1 = "java"
 console.log(
     (str.split('').reverse().join(''))
 );
 
+console.log('    ');
+console.log("x ------------------------------ x");
+
+// Task 11:-
 var obj = {
     name : "balaji",
     dep : "it"
@@ -94,8 +121,10 @@ for(var x in obj){
     console.log(x +"<=>"+ obj[x])
 }
 
+console.log('    ');
 console.log("x ------------------------------ x");
 
+// task 12:-
 let ai = 9
 if(ai==8){
     console.log("Auto will move");
@@ -111,9 +140,10 @@ if(ai==8){
 
 }
 
+console.log('    ');
 console.log("x ------------------------------ x");
 
-// task 3:-
+// task 13:-
 var ar = 3
 if(ar % 2 == 0){
     console.log("even number : "+ar);
@@ -126,8 +156,10 @@ if(ar % 2 == 0){
 
 }
 
+console.log('    ');
 console.log("x ------------------------------ x");
 
+// task 14:-
 function revstr(name){
     var rev =""
     for( i=name.length-1; i>=0; i--){
@@ -137,8 +169,10 @@ function revstr(name){
 
 }revstr("Trendnologies");
 
+console.log('    ');
 console.log("x ------------------------------ x");
 
+// task 15:-
 var num = 10
 for(i=0; i<=num; i++){
 
@@ -147,8 +181,10 @@ for(i=0; i<=num; i++){
     }
 }
 
+console.log('    ');
 console.log("x ------------------------------ x");
 
+// task 16:-
 let time = 12.30
 if(time >= 9.05 && time <= 10.05){
     console.log("Madurai and thanjavur buses will depart.");
@@ -164,8 +200,10 @@ if(time >= 9.05 && time <= 10.05){
 
 }
 
+console.log('    ');
 console.log("x ------------------------------ x");
 
+// task 17:-
 let fruit = ["mango","apple","orange","banana","icecreame"]
 for(i=0; i<=fruit.length-1; i++){
     let fruits = fruit[i]
@@ -173,8 +211,10 @@ for(i=0; i<=fruit.length-1; i++){
     console.log(fruits);
 }
 
+console.log('    ');
 console.log("x ------------------------------ x");
 
+// task 18:-
 var num = [10,25,67,11,98];
 var max = num[0]
 for( i=1; i<=num.length-1; i++){
@@ -183,8 +223,11 @@ for( i=1; i<=num.length-1; i++){
         max = num[i]
     }
 }console.log("maximum value : "+max);
-console.log("   ");
 
+console.log("   ");
+console.log("x ------------------------------ x");
+
+// task 19:-
 for(var i = 20; i<=30; i++){
 
     if(i % 2 != 0){
@@ -192,8 +235,11 @@ for(var i = 20; i<=30; i++){
 
     }
 }
+
+console.log("   ");
 console.log("x ------------------------------ x");
-// task 4:-
+
+// task 20:-
 var office = [
     {
         name : "hari",
@@ -216,10 +262,17 @@ var office = [
 ]
 console.log(office);
 
+console.log("   ");
+
 office[2].name = "balaji"
 office[2].role = "tester"
 console.log(office);
 
+
+console.log("   ");
+console.log('x ------------------------------ x');
+
+// task 21:-
 for(i=0; i<=office.length-1; i++){
 let key = Object.keys(office[i])
 console.log(key);
@@ -227,7 +280,11 @@ let val = Object.values(office[i])
 console.log(val);
 }
 
-task5:-
+
+console.log("   ");
+console.log('x ------------------------------ x');
+
+// task 22:-
 console.log("--Asyncronice--");
 function wakeup() {
   setTimeout(() => {

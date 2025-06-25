@@ -28,9 +28,7 @@ console.log("   ");
 var a = "hari";
 var b = "hi";
 console.log(a + b + "how are you.."); //old
-console.log(`${a} ${b} 
-    
-    How are you...`); //new
+console.log(`${a} ${b} How are you...`); //new
 console.log("   ");
 
 // Constructor using in function:-
